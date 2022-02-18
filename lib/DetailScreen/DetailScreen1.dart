@@ -142,7 +142,7 @@ class _DetailScreenState1 extends State<DetailScreen1> {
                         Text(
                           "บาดแผลถลอก",
                           style: GoogleFonts.prompt(
-                            fontSize: 56,
+                            fontSize: 43,
                             color: kTextColor,
                             fontWeight: FontWeight.w900,
                           ),
@@ -222,16 +222,16 @@ class _DetailScreenState1 extends State<DetailScreen1> {
           ),
         ),
         Positioned(
-            right: 8,
-            top: 5,
+            right: 30,
+            top: 100,
             child: Image.network(
               "http://cdn.onlinewebfonts.com/svg/img_493081.png",
               color: Color.fromRGBO(0, 0, 0, 0.1),
-              scale: 3,
+              scale: 5,
             )),
         Positioned(
-            top: 60,
-            left: 32,
+            top: 35,
+            left: 30,
             child: Text(
               "3",
               style: TextStyle(

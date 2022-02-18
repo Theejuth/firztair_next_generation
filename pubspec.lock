@@ -8,13 +8,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.0"
-  arcore_flutter_plugin:
-    dependency: "direct main"
-    description:
-      name: arcore_flutter_plugin
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.11"
   arkit_plugin:
     dependency: "direct main"
     description:
@@ -71,13 +64,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
-  countdown_flutter:
-    dependency: "direct main"
-    description:
-      name: countdown_flutter
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.2"
   cross_file:
     dependency: transitive
     description:
@@ -99,13 +85,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
-  equatable:
-    dependency: transitive
-    description:
-      name: equatable
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.6"
   fake_async:
     dependency: transitive
     description:

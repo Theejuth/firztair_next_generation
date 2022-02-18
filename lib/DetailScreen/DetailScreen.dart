@@ -131,7 +131,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      SizedBox(
+                      const SizedBox(
                         height: 300,
                       ),
                       Row(
@@ -139,7 +139,7 @@ class _DetailScreenState extends State<DetailScreen> {
                           Text(
                             "บาดแผลตัด",
                             style: GoogleFonts.prompt(
-                              textStyle: TextStyle(
+                              textStyle: const TextStyle(
                                 fontSize: 48,
                                 color: kTextColor,
                                 fontWeight: FontWeight.w900,
@@ -254,14 +254,14 @@ class _DetailScreenState extends State<DetailScreen> {
             ),
           ),
           Positioned(
-              right: 20,
-              top: 20,
+              right: 10,
+              top: 80,
               child: Image.network(
                 "https://image.flaticon.com/icons/png/512/31/31605.png",
                 fit: BoxFit.cover,
                 color: const Color.fromRGBO(255, 255, 255, 0.1),
                 colorBlendMode: BlendMode.modulate,
-                scale: 1.5,
+                scale: 2,
               )),
           Positioned(
               top: 60,

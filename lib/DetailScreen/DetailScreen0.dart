@@ -139,7 +139,7 @@ class _DetailScreen0State extends State<DetailScreen0> {
                         Text(
                           "บาดแผลพุพอง",
                           style: GoogleFonts.prompt(
-                            fontSize: 56,
+                            fontSize: 42,
                             color: kTextColor,
                             fontWeight: FontWeight.w900,
                           ),
@@ -160,10 +160,10 @@ class _DetailScreen0State extends State<DetailScreen0> {
                         )
                       ],
                     ),
-                    Divider(
+                    const Divider(
                       color: Colors.black38,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 32,
                     ),
                     Text(
@@ -208,12 +208,12 @@ class _DetailScreen0State extends State<DetailScreen0> {
           ),
         ),
         Positioned(
-            right: 8,
-            top: 20,
+            right: 20,
+            top: 105,
             child: Image.network(
               "https://cdn-icons-png.flaticon.com/512/130/130162.png",
               color: Color.fromRGBO(0, 0, 0, 0.5),
-              scale: 2,
+              scale: 2.5,
             )),
         Positioned(
             top: 60,

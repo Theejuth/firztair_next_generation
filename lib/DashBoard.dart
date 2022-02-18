@@ -42,13 +42,15 @@ class HomeScreen extends StatelessWidget {
                     child: Container(
                       alignment: Alignment.center,
                       height: 52,
-                      width: 52,
+                      width: 70,
                       decoration: BoxDecoration(),
                     ),
                   ),
                   Text("ยินดีต้อนรับเข้าสู่ \nFirztAir",
                       style: GoogleFonts.mitr(
-                          fontSize: 30, fontWeight: FontWeight.bold)),
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white)),
                   SearchBar(),
                   Expanded(
                     child: GridView.count(
@@ -99,7 +101,7 @@ class HomeScreen extends StatelessWidget {
                               "http://cdn.onlinewebfonts.com/svg/img_493081.png",
                           Colored_begin: 0xFF9FA8DA,
                           Colored_end: 0xFF1A237E,
-                          scale: 1,
+                          scale: 10,
                           red: 158,
                           green: 198,
                           blue: 255,
@@ -118,7 +120,7 @@ class HomeScreen extends StatelessWidget {
                               "http://cdn.onlinewebfonts.com/svg/img_492288.png",
                           Colored_begin: 0xFFF06292,
                           Colored_end: 0xFF880E4F,
-                          scale: 6,
+                          scale: 8,
                           red: 223,
                           green: 135,
                           blue: 255,
@@ -200,7 +202,7 @@ class CategoryCard extends StatelessWidget {
                     title,
                     textAlign: TextAlign.center,
                     style: GoogleFonts.prompt(
-                        fontSize: 25,
+                        fontSize: 20,
                         color: Colors.white,
                         fontWeight: FontWeight.bold),
                   )
